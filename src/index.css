@@ -1,1 +1,14 @@
-@import "tailwindcss";
+@import "tailwindcss"; 
+
+@theme{
+    --font-fredoka : "Fredoka", sans-serif; 
+    --font-nunito : "Nunito", sans-serif; 
+
+    --color-primary : #2D3691; 
+    --color-neutral-100 : #FBF7FF; 
+    --color-neutral-300 : #616591; 
+    --color-accent-400: #FCEFEA; 
+    --color-accent-500 : #7771B2; 
+    --color-accent-900 : #C54445;  
+
+}
