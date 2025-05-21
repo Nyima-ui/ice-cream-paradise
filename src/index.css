@@ -1,14 +1,36 @@
-@import "tailwindcss"; 
+@import "tailwindcss";
 
-@theme{
-    --font-fredoka : "Fredoka", sans-serif; 
-    --font-nunito : "Nunito", sans-serif; 
+@theme {
+  --font-fredoka: "Fredoka", sans-serif;
+  --font-nunito: "Nunito", sans-serif;
 
-    --color-primary : #2D3691; 
-    --color-neutral-100 : #FBF7FF; 
-    --color-neutral-300 : #616591; 
-    --color-accent-400: #FCEFEA; 
-    --color-accent-500 : #7771B2; 
-    --color-accent-900 : #C54445;  
+  --color-primary: #2d3691;
+  --color-neutral-100: #fbf7ff;
+  --color-neutral-300: #616591;
+  --color-accent-400: #fcefea;
+  --color-accent-500: #7771b2;
+  --color-accent-900: #c54445;
 
+  --shadow-button: 0 2px 7px rgba(45, 54, 145, 0.7); 
+  --shadow-overlay: 3px 0 10px rgba(0, 0, 0, 0.6)
 }
+
+:root {
+  --text-xl: 33px;
+  --text-lg: 25px;
+  --text-md: 18px;
+  --text-base: 16px;
+
+  @media (width >= 640px) {
+    --text-xl: 52px;
+    --text-lg: 40px; 
+    --text-md: 20px; 
+    --text-base: 18px; 
+  }
+}
+
+/* font sizes: 
+1. 33px  -> 52px
+2. 25px  -> 40px
+3. 18px  -> 20px
+4. 16px  -> 18px */
