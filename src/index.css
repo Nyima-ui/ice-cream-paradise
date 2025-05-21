@@ -11,7 +11,7 @@
   --color-accent-500: #7771b2;
   --color-accent-900: #c54445;
 
-  --shadow-button: 0 2px 7px rgba(45, 54, 145, 0.7); 
+  --shadow-button: 0 2px 20px rgba(45, 54, 145, 0.9); 
   --shadow-overlay: 3px 0 10px rgba(0, 0, 0, 0.6)
 }
 

@@ -1,9 +1,12 @@
 import "./App.css";
 import Button from "./components/Button";
 import Nav from "./components/Nav";
+import Navigation from "./components/Navigation";
 
 function App() {
-  return (<Nav />);
+  return (
+    <Navigation />
+  );
 }
 
 export default App;
