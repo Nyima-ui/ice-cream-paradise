@@ -14,10 +14,10 @@ const Navigation = () => {
 
       <Navbutton navExpanded={navExpanded} setnavExpanded={setnavExpanded} />
 
-      <ul className="flex items-center max-sm:hidden">
+      <ul className="flex items-center max-sm:hidden ">
         {navLinks.map((item, index) => (
-          <li className="text-base text-primary font-medium" key={index}>
-            <a href={item.href} className="px-3">
+          <li className="text-base text-primary font-semibold py-2 hover:text-primary/70 transition-all duration-500" key={index}>
+            <a href={item.href} className="px-3 py-2">
               {item.name}
             </a>
           </li>
@@ -25,7 +25,7 @@ const Navigation = () => {
 
         {ctaLinks.map((item, index) => (
           <li
-            className="text-base text-neutral-100 ml-3 hover:shadow-button transition-all duration-200"
+            className="text-base text-neutral-100 ml-3 transform transition-transform duration-150 hover:scale-105"
             key={index}
           >
             <a href={item.href} className="px-4 py-2 bg-primary rounded-sm">
