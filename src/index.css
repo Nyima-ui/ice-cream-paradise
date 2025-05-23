@@ -13,10 +13,6 @@
 
   --shadow-button: 0 2px 20px rgba(45, 54, 145, 0.9);
 
-  --text-md: 18px;
-}
-
-:root {
   --text-xl: 33px;
   --text-lg: 25px;
   --text-md: 18px;

@@ -1,16 +1,20 @@
 import "./App.css";
-import Button from "./components/Button";
+import AboutUs from "./components/AboutUs";
+import BusinessHoursBanner from "./components/BusinessHoursBanner";
 import Carousel from "./components/Carousel";
 import Hero from "./components/Hero";
-import Hero2 from "./components/Hero2";
+import LocatedAt from "./components/LocatedAt";
 import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <>
       <Navigation />
-      <Hero2 />
+      <Hero />
       <Carousel />
+      <BusinessHoursBanner />
+      <LocatedAt />
+      <AboutUs />
     </>
   );
 }

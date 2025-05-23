@@ -24,7 +24,7 @@ const Carousel = () => {
 
   return (
     <section className="my-10" aria-label="Trending Flavors carousel section">
-      <h2 className="my-7.5 text-center font-fredoka font-normal text-primary text-lg">
+      <h2 className="my-7.5 text-center font-fredoka font-normal text-primary text-lg lg:text-[40px] lg:leading-[45px]">
         Trending Flavors
       </h2>
 
@@ -34,7 +34,7 @@ const Carousel = () => {
       >
         {desktopFlavorCards.map((item, index) => (
           <article className="min-w-[251px]" key={index}>
-            <img src={item.image} alt={`${item.flavor} ice cream.`} />
+            <img src={item.image} alt={`${item.flavor} ice cream.`} loading="lazy" />
             <p className="font-nunito text-primary mt-4 font-semibold text-md text-center">
               {item.flavor}
             </p>
