@@ -23,7 +23,11 @@ const Carousel = () => {
   }, []);
 
   return (
-    <section className="my-10" aria-label="Trending Flavors carousel section">
+    <section
+      className="my-10"
+      aria-label="Trending Flavors carousel section"
+      id="Flavors"
+    >
       <h2 className="my-7.5 text-center font-fredoka font-normal text-primary text-lg lg:text-[40px] lg:leading-[45px]">
         Trending Flavors
       </h2>
@@ -33,8 +37,12 @@ const Carousel = () => {
         ref={scrollContainer}
       >
         {desktopFlavorCards.map((item, index) => (
-          <article className="min-w-[251px]" key={index}>
-            <img src={item.image} alt={`${item.flavor} ice cream.`} loading="lazy" />
+          <article className="min-w-[15.688rem]" key={index}>
+            <img
+              src={item.image}
+              alt={`${item.flavor} ice cream.`}
+              loading="lazy"
+            />
             <p className="font-nunito text-primary mt-4 font-semibold text-md text-center">
               {item.flavor}
             </p>
@@ -58,7 +66,13 @@ const Carousel = () => {
         ))}
       </ul>
 
-      <Button className="hidden sm:block mt-15 mx-auto" aria-label="Visit our store">Visit our store</Button>
+      <Button
+        className="hidden sm:block mt-15 mx-auto"
+        aria-label="Visit our store"
+        href="https://maps.app.goo.gl/Rgnmpt6LvywmtmGc7"
+      >
+        Visit our store
+      </Button>
     </section>
   );
 };

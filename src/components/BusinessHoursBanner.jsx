@@ -8,8 +8,8 @@ const BusinessHoursBanner = () => {
     <section className="mb-10 md:mt-20 md:mb-22.5 lg:mb-40 lg:mt-33">
       <div className="sm:flex sm:items-center max-w-[75rem] mx-auto h-auto">
         <picture className="sm:order-2">
-          <source media="(max-width: 430px)" srcSet={threeIceCreamsForMobile} />
-          <source media="(min-width: 431px)" srcSet={threeIceCreams} />
+          <source media="(max-width: 26.875rem)" srcSet={threeIceCreamsForMobile} />
+          <source media="(min-width: 26.938rem)" srcSet={threeIceCreams} />
           <img
             src={threeIceCreams}
             alt="Three ice creams being held together."
@@ -27,7 +27,7 @@ const BusinessHoursBanner = () => {
           <p className="font-nunito text-neutral-300 my-3.5 lg:my-5 lg:text-[18px]">
             Perfect for a mid-day treat or <br /> evening chill with a view.
           </p>
-          <Button className="sm:hidden">Visit our store</Button>
+          <Button className="sm:hidden" href="https://maps.app.goo.gl/Rgnmpt6LvywmtmGc7">Visit our store</Button>
         </div>
       </div>
     </section>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ice-cream-paradise.com/sitemap.xml

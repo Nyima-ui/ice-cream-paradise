@@ -68,7 +68,7 @@ const Mobilemenu = ({ navExpanded, setnavExpanded }) => {
             className="py-2 px-5 rounded-sm mx-8 mt-4 mb-6 bg-neutral-100 border inline-block text-primary font-bold"
             variants={menuItemVariants}
           >
-            <a href="#">Contact</a>
+            <a href="#Footer">Contact</a>
           </motion.li>
         </motion.ul>
       )}
